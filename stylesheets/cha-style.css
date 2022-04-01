@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+html{
+	background: #100C0D;
+}
+
+
+/* Header Styles */
+header img {
+   display: flex;
+   max-height:150px;
+   width: 15%;
+   min-width: 250px;
+   resize: ;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: left;
+    background-image: url();
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+ }
+
+  header.header-content {
+    position: relative;
+    width: 100%;
+    padding: 15px 15px;
+    text-align: left;
+ }
+
+
+
+.header-content img {
+	float: left;   
+}
+
+.hamburger {
+	background-color: transparent;
+	border: 0;
+	color: #fff;
+	font-size: 20px;
+}
+
+/* Navigation Styles */
+
+.menu-area a {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	color: #E3DCD2;
+	background: #cc8b65;
+	height: 50px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.menu-area a:hover {
+	background: #100C0D;
+	color: #cc8B65;
+}
+
+.menu-area ul {
+	list-style: none;
+	display: flex;
+}
+
+.menu-area ul li {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}   
+
+.menu-area li:hover .dropdown li {
+	top: 0;
+	display: block;
+}
+
+.dropdown ul li {
+	display: none;
+	position: relative;
+	width: 100%;
+}
+
+.dropdown ul {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+h1{ 
+	color: #E3DCD2;
+	text-align: center;
+	font-weight: normal;
+	font-size: 2em;
+}
+
+ h2{
+	color: #E3DCD2;
+	text-align: center;
+	font-weight: normal;
+	font-size: 1.75em;
+ }
+ 
+ h3 {
+	color: #E3DCD2;
+	text-align: center;
+	font-weight: normal;
+	font-size: 1.5em;
+ }	 
+ 
+ h4 {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	flex-direction: row;
+	width: 100%;
+	min-height: 200px;
+	align-items: center;
+	font-size: 2em;
+	color: #CC8B65;
+ }
+ 
+.content p {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 32.5em;
+ }
+ 
+/* Links Styles */
+ 
+ a:hover {
+   color: red;
+}
+a {
+   color: #E3DCD2;
+}
+
+
+/* Section Styles */
+
+section {
+	text-align: center;
+	color: #CC8B65;
+	background: #013328;
+	font-family: "Times New Roman", serif, Cambria, "Hoefler Text", "Liberation Serif", Times;
+	font-weight: normal;
+	font-size: 1em;
+	letter-spacing: 0.03em;
+	line-height: 1.2em;
+	margin-bottom: 20px;
+}
+
+
+/* Table Styles */
+
+table, aside table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+	td, caption, th{
+	color: #CC8B65;
+    border: 1px solid;
+	border-color: #E3DCD2;
+    font-size: 0.85em;
+    font-weight: normal;
+	text-align: center;
+    padding: 5px;
+    vertical-align: center;
+    word-wrap: break-word;
+  }
+
+
+/* Footer Styles */
+footer {
+	background-color: #100C0D;
+	color: #E3DCD2;
+	text-align: center;
+	font-size: 0.8em;
+	padding-top: 1px;
+	padding-bottom: 15px;
+	line-height: 2em;
+  }

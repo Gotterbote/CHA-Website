@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+
+/* Import Basic Design Styles  */
+@import url(cha-style.css);
+
+/* ===============================
+	General Styles for All Devices
+   ===============================
+*/
+.hamburger {
+	display:none;
+}
+	
+
+
+/* ===============================
+	Mobile Styles up to 480 pixels
+   ===============================
+*/
+@media only screen and (max-width: 480px){
+
+h1,h2,h3{
+	line-height: 1.0;
+	
+}
+footer{
+	display: none;
+}
+.hamburger {
+	cursor: pointer;
+	display: block;
+	position: relative;
+	display: block;
+}
+.menu-area ul{
+	display: none;
+	flex-direction: column;
+	width: 100%;
+}
+
+.hamburger:hover+ul, nav.menu-area ul:hover{
+	display: block;
+}
+
+
+/* ============================================
+	Tablet and Desktop Devices: 481px or more 
+   ============================================
+*/
+@media screen and (min-width:481px)
+
